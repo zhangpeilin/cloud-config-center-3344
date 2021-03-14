@@ -66,7 +66,7 @@ spring:
             -----END RSA PRIVATE KEY-----
 
 
-      label: main
+      label: dev
 
 eureka:
   client:
