@@ -1,0 +1,79 @@
+server:
+  port: 3344
+
+spring:
+  application:
+    name: cloud-config-center
+  cloud:
+    config:
+      server:
+        git:
+          uri: git@github.com:zhangpeilin/springcloud-config.git
+          search-paths:
+            - springcloud-config
+          ignore-local-ssh-settings: true
+          private-key: |
+            -----BEGIN RSA PRIVATE KEY-----
+            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
+            -----END RSA PRIVATE KEY-----
+
+
+      label: main
+
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka,http://eureka7002.com:7002/eureka
+  instance:
+    prefer-ip-address: true
+    instance-id: cloud-config-center
